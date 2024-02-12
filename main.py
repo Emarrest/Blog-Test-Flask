@@ -2,9 +2,9 @@ from flask import Flask, render_template, request
 import smtplib
 import requests
 
-gmail = "testpython63@gmail.com"
-password = "Jerapotamo29"
-yahoo = "testpython76@yahoo.com"
+gmail = "email"
+password = "password"
+yahoo = "email"
 
 response = requests.get("https://api.npoint.io/a107b8ae6f9c97c2cb30").json()
 
